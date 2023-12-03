@@ -1,0 +1,2 @@
+VERSION=1
+ModTemplate;MinimalDisplayBars;modoptions;BetterSortCC;P4HasBeenRead;AutoMechanics;ModManager;ModManagerServer;Disassemble Container With Items;ProximityInventory;POM

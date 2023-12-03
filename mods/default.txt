@@ -2,6 +2,17 @@ VERSION = 1,
 
 mods
 {
+	mod = AutoMechanics,
+	mod = BetterSortCC,
+	mod = Disassemble Container With Items,
+	mod = P4HasBeenRead,
+	mod = MinimalDisplayBars,
+	mod = ModManager,
+	mod = modoptions,
+	mod = ModManagerServer,
+	mod = ModTemplate,
+	mod = POM,
+	mod = ProximityInventory,
 }
 
 maps
