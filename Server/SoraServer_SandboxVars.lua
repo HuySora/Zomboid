@@ -634,4 +634,17 @@ SandboxVars = {
         -- Enable this if you want the Proximity Inventory to work only on zombies
         ZombieOnly = false,
     },
+    CommonSense = {
+        -- Toggles whether Players can pry open doors, windows, etc. using a Crowbar. 
+        PryingMechanic = true,
+        -- Determines whether all doors can be pried open or not.
+        -- By default, reinforced doors (Prison doors, metal grid doors, etc.) cannot be pried open.
+        PryAllDoors = false,
+        -- Displays the icon for Battery and Engine in vehicle dashboards in various colors depending on their condition. 
+        PartsHighlighter = true,
+        -- Toggles friendly colors for those affected by color blindness. 
+        ColorFilter = false,
+        -- Minimum=0.00 Maximum=5.00 Default=1.00
+        PryingChanceMultiplier = 1.0,
+    },
 }
