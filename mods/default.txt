@@ -13,6 +13,11 @@ mods
 	mod = ModTemplate,
 	mod = POM,
 	mod = ProximityInventory,
+	mod = AutoSewing,
+	mod = BB_CommonSense,
+	mod = EQUIPMENT_UI,
+	mod = ReloadAllMagazines,
+	mod = TheStar,
 }
 
 maps
