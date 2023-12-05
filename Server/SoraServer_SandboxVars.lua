@@ -498,7 +498,7 @@ SandboxVars = {
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1.0,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
         MapAllKnown = false,
     },
@@ -613,5 +613,25 @@ SandboxVars = {
         RallyGroupSeparation = 15,
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
+    },
+    PlayersOnMap = {
+        -- Will show players on a map.
+        Enabled = true,
+        -- Will show player names on a map.
+        ShowPlayerNames = true,
+        -- Will show your player name on a map.
+        ShowMyName = true,
+        -- Will show only players that are in the same faction. (Doesn't affect admins)
+        ShowOnlyFaction = false,
+        -- Will show dead players that are zombie. (Doesn't affect admins)
+        ShowDeadPlayers = true,
+        -- This will make text smaller, but this font doesn't support non ascii usernames.
+        FontDebugConsole = false,
+        -- Distance after which player won't show on a map. (Doesn't affect admins) Minimum=-1 Maximum=999999999 Default=-1
+        MaxDistance = -1,
+    },
+    ProxInv = {
+        -- Enable this if you want the Proximity Inventory to work only on zombies
+        ZombieOnly = false,
     },
 }
