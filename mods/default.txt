@@ -18,6 +18,7 @@ mods
 	mod = EQUIPMENT_UI,
 	mod = ReloadAllMagazines,
 	mod = TheStar,
+	mod = CombatText,
 }
 
 maps
