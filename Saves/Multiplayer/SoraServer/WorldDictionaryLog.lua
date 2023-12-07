@@ -2318,3 +2318,29 @@ table.insert(log, {
 	{ type = "reg_obj", id = 44, obj = "WallCracks" }
 	{ type = "reg_obj", id = 45, obj = "Flowerbed" }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/12/05 20:35:43
+	{
+		type = "info",
+		timeStamp = "2023/12/05 20:35:46",
+		saveWorld = "SoraServer",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"BB_CommonSense",
+		},
+	},
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PiePumpkin", registeryID = 24, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Pie", registeryID = 221, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.BathTowel", registeryID = 429, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieBlueberry", registeryID = 684, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.EmptyConcreteBag", registeryID = 2259, existsVanilla = false, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.HandTorch", registeryID = 1243, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieApple", registeryID = 1472, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.DishCloth", registeryID = 1784, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieLemonMeringue", registeryID = 2057, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieKeyLime", registeryID = 2115, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+};
