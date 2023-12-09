@@ -81,9 +81,9 @@ SandboxVars = {
     -- 7 = 2-6 Months
     ElecShut = 2,
     -- Minimum=-1 Maximum=2147483647 Default=14
-    WaterShutModifier = 14,
+    WaterShutModifier = 99999,
     -- Minimum=-1 Maximum=2147483647 Default=14
-    ElecShutModifier = 14,
+    ElecShutModifier = 99999,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
