@@ -1,2 +1,2 @@
 VERSION=1
-ModTemplate;MinimalDisplayBars;modoptions;BetterSortCC;P4HasBeenRead;AutoMechanics;ModManager;ModManagerServer;Disassemble Container With Items;ProximityInventory;POM;BB_CommonSense;TheStar;ReloadAllMagazines;AutoSewing;EQUIPMENT_UI;CombatText;TakeAnyAmount
+ModTemplate;MinimalDisplayBars;modoptions;BetterSortCC;P4HasBeenRead;AutoMechanics;ModManager;ModManagerServer;Disassemble Container With Items;ProximityInventory;POM;BB_CommonSense;TheStar;ReloadAllMagazines;AutoSewing;EQUIPMENT_UI;CombatText;TakeAnyAmount;Zombie Fix;LootTablesFixed;FactionMap

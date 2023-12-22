@@ -19,6 +19,10 @@ mods
 	mod = ReloadAllMagazines,
 	mod = TheStar,
 	mod = CombatText,
+	mod = FactionMap,
+	mod = TakeAnyAmount,
+	mod = LootTablesFixed,
+	mod = Zombie Fix,
 }
 
 maps
